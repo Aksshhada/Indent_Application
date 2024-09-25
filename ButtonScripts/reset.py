@@ -1,0 +1,9 @@
+def runAction(self, event):
+    page = self.page
+	self.getSibling('PR_Title').props.text = ""
+	self.getSibling('Part_No').props.text = ""
+	self.getSibling('Part_Description').props.text = ""
+	self.getSibling('QYT').props.text = ""
+	self.getSibling('Expense_Booking').props.value = ""
+	self.getSibling('Section').props.value = ""
+	self.getSibling('Category').props.value = ""
